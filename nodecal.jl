@@ -45,6 +45,10 @@ for i in 1:length(nodeparse)
             binaryheapnode = Binaryheap{Union{Int64, Float64}}
             push!(binaryheapnode, nodeparse[i])
               # invoke the Dijs shortest route algorithm and then pop that entry out. 
+              # if the first element is already less than the chld 2*i+1 then no sort otherwise a linear sort such as 
+                                    storearray = firstelement[0]
+                                        # condition implementation
+                                          [i for i in firstelement if i <= storearray]
               
               
         
