@@ -27,6 +27,8 @@ for i in 1:length(nodeparse)
         push!(nodeaadd,iternode)
 # method addition fot he plotting the nodes
 # method addition for parsing the gff and also the gfa nodes.
+        # here the node is i and the child is 2*i+1
+        # either implement the heapify or add the max or the min heap application
 for i in 1:length(nodeparse)
     for j in 1:length(matrixcal)
         # implementing a heap interaction
