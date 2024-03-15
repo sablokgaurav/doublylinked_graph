@@ -19,5 +19,7 @@ struct matrixcal {
 nodeadd = Matrix{Int64[Float64]}
 for i in 1:length(nodeparse)
     for j in 1:length(matrixcal)
-    nodeparse[i,j] = i*j
+      iternode = nodeparse[i]*matrixcal[j]
+        push!(nodeaadd,nodeparse)
+        
         
