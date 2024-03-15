@@ -8,6 +8,12 @@ Pkg.add("DataStructures.jl")
 Pkg.add("Filesystem")
 filename = Array{Union{String,Int64,Float64}}
 filename = joinpath(pwd())
+alignmentnodes = Array{String}
+for i in open(eachline(joinpath(file))
+    push!(alignmentnodes,i)
+  return length(alignmentnodes)
+lengthalign = Array{Union{Int64, Float64}}
+    if lengthalign # add another struct here as that struct will make a named tuple like the python
 struct nodeparse {
   node: String
   nodeconnection: float64
