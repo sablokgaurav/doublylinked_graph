@@ -35,6 +35,7 @@ for i in 1:length(nodeparse)
             if nodeparse[i] < nodeparse[i+1]
             binaryheapnode = Binaryheap{Union{Int64, Float64}}
             push!(binaryheapnode, nodeparse[i])
+              # invoke the Dijs shortest route algorithm and then pop that entry out. 
               
               
         
