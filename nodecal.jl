@@ -5,6 +5,9 @@ using Pkg
 Pkg.add("Networks.jl")
 Pkg.add("Filesystem.jl")
 Pkg.add("DataStructures.jl")
+Pkg.add("Filesystem")
+filename = Array{Union{String,Int64,Float64}}
+filename = joinpath(pwd())
 struct nodeparse {
   node: String
   nodeconnection: float64
