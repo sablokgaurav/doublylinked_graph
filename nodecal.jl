@@ -3,6 +3,8 @@
 # Date 2024-3-15
 using Pkg
 Pkg.add("Networks.jl")
+Pkg.add("DataStructures.jl")
+Pkg.add("Flux.jl")
 Pkg.add("Filesystem.jl")
 Pkg.add("DataStructures.jl")
 Pkg.add("Filesystem")
