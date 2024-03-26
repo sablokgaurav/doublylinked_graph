@@ -1,5 +1,5 @@
-# doublylinked_graph
-a doubly linked list implementation of the parsing of the node graphs using the julia lang. storing the node connection as a doubly linked list and then implementing a positional pointer. implementing this in julia for faster rates. 
+# graph_implementation
+a doubly linked list implementation of the parsing of the node graphs using the julia lang. This is learning julia at the same time and writing a node calibration graph in the same. storing the node connection as a doubly linked list and then implementing a positional pointer. 
 
 Gaurav Sablok \
 Academic Staff Member \
